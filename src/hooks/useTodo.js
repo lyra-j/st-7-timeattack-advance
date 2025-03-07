@@ -29,6 +29,7 @@ export const useUpdateLike = () => {
       return { previousTodos };
     },
     onError: (error, _, context) => {
+      console.error(error)
       queryClient.setQueryData(["todos"], context.previousTodos);
     },
     onSettled: () => {
