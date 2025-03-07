@@ -11,10 +11,10 @@
     "json": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.45.0",
+    "@tanstack/react-query": "^5.67.1",
     "@tanstack/react-query-devtools": "^5.45.0",
     "axios": "^1.7.2",
-    "json-server": "^1.0.0-beta.1",
+    "json-server": "^1.0.0-beta.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1"
@@ -28,5 +28,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
